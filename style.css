@@ -11,6 +11,37 @@ body {
 header {
     padding: 3px;
     text-align: center;
-    background: #00ffaa;
+    color: #00ffaa;
+    background:#1f1f1f;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #00ffaa;
     color:#1f1f1f;
+    text-align: center;
+}
+
+ul li a {
+    display: block;
+    color:#1f1f1f;
+    text-align: center;
+    padding: 5px 7px;
+    text-decoration: underline wavy;
+}
+
+.block {
+    margin: 5px;
+    text-align: center;
+    border-color: #00ffaa;
+    border-top:5px double;
+    border-bottom:5px double;
+    border-left:4px dashed;
+    border-right:4px dashed;
+    border-radius: 3px;
 }
