@@ -1,0 +1,16 @@
+/* two colors:  #00ffaa and #1f1f1f*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "JetBrains Mono", monospace;
+    color: #00ffaa;
+    background: #1f1f1f;
+}
+
+header {
+    padding: 3px;
+    text-align: center;
+    background: #00ffaa;
+    color:#1f1f1f;
+}
