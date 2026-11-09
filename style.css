@@ -45,3 +45,13 @@ ul li a {
     border-right:4px dashed;
     border-radius: 3px;
 }
+
+.hide_link {
+    color:#00ffaa; 
+    text-decoration: none;
+}
+
+.hidden_text {
+    color: #1f1f1f;
+    font-size: x-small;
+}
