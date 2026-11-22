@@ -36,7 +36,10 @@ ul li a {
 }
 
 .block {
+    position: relative;
     margin: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
     text-align: center;
     border-color: #00ffaa;
     border-top:5px double;
@@ -44,6 +47,53 @@ ul li a {
     border-left:4px dashed;
     border-right:4px dashed;
     border-radius: 3px;
+}
+
+.block:hover {
+    border-right-color: transparent;
+    border-left-color: transparent;
+}
+
+.block::after {
+    content: "";
+    position: absolute;
+    border-right: 4px dashed transparent;
+    top: 0;
+    right: -5px;
+    width: 10px;  
+    height: 100%;
+    cursor: grab;
+}
+
+.block:hover::after {
+    border-right:4px dashed;
+    animation: pluck .4s ease-out;
+}
+
+.block::before {
+    content: "";
+    position: absolute;
+    border-left: 4px dashed transparent;
+    top: 0;
+    left: -5px;
+    width: 10px;  
+    height: 100%;
+    cursor: grab;
+}
+
+.block:hover::before {
+    border-left:4px dashed;
+    animation: pluck .4s ease-out;
+}
+
+
+@keyframes pluck {
+    0%  {transform: translateX(0);}
+    20% {transform: translateX(-4px);}
+    40%  {transform: translateX(3px);}
+    60% {transform: translateX(-2px);}
+    80%  {transform: translateX(1px);}
+    100% {transform: translateX(0px);}
 }
 
 .hide_link {
