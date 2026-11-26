@@ -6,6 +6,7 @@ Even so, here are a few very simple Easter eggs. And no setup needed -- you can 
 
 It was made using raw HTML and CSS. This isn't my first time making a simple "introducing me" site, but I wanted something with a different vibe, so I leaned towards a cool hacker vibe I wanted to embody. 
 To do this, I chose charcoal and an aqua-ish green (it's among my favorite colors). I was very meticulous in deciding the exact hex code I wanted, along with the right Google Font to fit the same vibe (get my vibe?).
+It was also really fun figuring out how to add Easter eggs (there's only one big one, though; the others are just small features). It was still cool to program these extra things since the rest was mostly just writing text.
 
 I'm a very guarded and paranoid person, so I didn't add too much about me irl, but I think (or at least hope) that it's enough that anyone interacting with my projects online has a vague idea of who I am. 
 Right now it's quite basic since I wanted to have it mostly center on my computer science-based creative projects. Sadly, I don't have too many yet. Once I start making new programs and games I intend to link them, but as of now I have just a basic description of what my current skills are and one recent project.
